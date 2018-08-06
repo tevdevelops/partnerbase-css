@@ -1,0 +1,11 @@
+$main-font: 'Poppins', sans-serif;
+
+body {
+  h1 {
+    color:#ff8540;
+    font: {
+      family: $main-font;
+      size: 2em;
+    }
+  }
+}
