@@ -4,6 +4,7 @@ $main-blue: #5BC0EB;
 $white-blue: #F2F4F4;
 $dark-grey: #212529;
 $medium-grey: #D1D8DA;
+$white: #ffffff;
 
 body {
   section {
@@ -28,13 +29,20 @@ body {
     color: $dark-grey;
   }
 }
-.medium-grey {
-    background: {
-      color: $medium-grey;
-    }
-  }
+.uppercase {
+  text-transform: uppercase;
+}
+.background-secondary {
+  background-color: $medium-grey;
+}
+.flex {
+  display: inline-flex;
+}
 
 #menu1 {
+  background: {
+    color: $main-blue;
+  }
   .bar__module {
     display: inline-flex;
     ul {
@@ -60,8 +68,73 @@ body {
     text-decoration: none;
   }
 }
-nav {
+.round {
+  img {
+    border-radius: 100%;
+  }
+}
+.company-card, .company-lists {
+  padding: 1.3em;
   background: {
-    color: $main-blue;
+    color: $white;
+  }
+  text-align: center;
+  h2 {
+    margin-bottom: 1rem;
+  }
+  .card-body {
+    padding: 0;
+  }
+}
+.company-lists {
+  text-align: left;
+  margin-bottom: 5em;
+  max-height: 400px;
+  overflow: scroll;
+  h3 {
+    padding-left: 30px;
+    margin-bottom: 30px;
+  }
+}
+.company-listing {
+  display: flex;
+  flex: wrap;
+  padding-top: 15px;
+  padding-bottom:15px;
+  h5 {
+    padding-left: 10px
+  }
+  .company-icon {
+    img {
+      margin-bottom: 0;
+    }
+  }
+}
+.secondary-listing {
+  background: {
+    color: $medium-grey;
+  }
+}
+
+.space-top {
+  padding-top: 10px;
+}
+.space-top-lg {
+  padding-top: 50px;
+}
+.space-bottom {
+  padding-bottom: 10px;
+}
+.space-bottom-lg {
+  padding-bottom: 50px;
+}
+.pagination {
+  li {
+    padding-left: 20px;
+    a {
+      font: {
+        size: 1.3em;
+      }
+    }
   }
 }

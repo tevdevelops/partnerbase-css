@@ -264,8 +264,8 @@ body {
 .pos-vertical-center {
   position: relative;
   top: 50%;
-  transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
+  /* transform: translateY(-50%); */
+  /* -webkit-transform: translateY(-50%); */
 }
 @media all and (max-width: 767px) {
   .pos-vertical-center {
@@ -3445,8 +3445,8 @@ section.text-right > .container:last-child > .row:only-child > div[class*='col-'
 /**! 37. Spacing **/
 section,
 footer {
-  padding-top: 7.42857143em;
-  padding-bottom: 7.42857143em;
+  padding-top: 7.428571em;
+  padding-bottom: 7.428571em;
 }
 section.space--xxs,
 footer.space--xxs {
