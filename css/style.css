@@ -1,5 +1,52 @@
-body h1 {
-  color: #ff8540;
-  font-family: "Poppins", sans-serif;
-  font-size: 2em;
+body section {
+  background-color: #F2F4F4;
+}
+
+body h1, body .logo {
+  font-size: 2.5em;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+body .logo {
+  color: #000000;
+  font-size: 1.5em;
+}
+
+body p {
+  color: #212529;
+}
+
+.medium-grey {
+  background-color: #D1D8DA;
+}
+
+#menu1 .bar__module {
+  display: inline-flex;
+}
+
+#menu1 .bar__module ul {
+  margin-bottom: 0;
+}
+
+#menu1 .bar__module form {
+  padding-left: 50px;
+  width: 600px;
+}
+
+#menu1 .bar__module form input {
+  height: 2.2em;
+}
+
+.btn span {
+  line-height: 1.85714286em;
+}
+
+.logo:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
+nav {
+  background-color: #5BC0EB;
 }

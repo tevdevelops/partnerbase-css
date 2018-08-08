@@ -26,23 +26,28 @@
   <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 </head>
 <body>
-  <nav id="menu1" class="bar bar--sm bar-1 hidden-xs " data-scroll-class='366px:pos-fixed'>
+  <nav id="menu1" class="bar bar--sm bar-1 hidden-xs" data-scroll-class='366px:pos-fixed'>
     <div class="container">
       <div class="row">
-        <div class="col-lg-1 col-md-2 hidden-xs">
-            <div class="bar__module">
-              <a href="index.html" class="logo">Partnerbase</a>
-            </div>
+          <div class="bar__module">
+            <a href="index.html" class="logo">Partnerbase</a>
+          </div>
         <!--end module-->
-        </div>
-        <div class="col-lg-11 col-md-12 text-right text-left-xs text-left-sm">
           <div class="bar__module">
             <ul class="menu-horizontal text-left">
               <li><a href="companies" class="">Companies</a></li>
               <li><a href="partnerships" class="">Partnerships</a></li>
+            </ul>
+            <form>
+              <div class="row justify-content-center">
+                <input type="search" name="query" placeholder="Type search query and hit enter">
+              </div>
+              <!--end of row-->
+            </form>
+
             </div>
             <!--end module-->
-        </div>
+
       </div>
             <!--end of row-->
     </div>
@@ -51,10 +56,7 @@
             <!--end bar-->
 
   <div class="main-container">
-    <section class="cover imagebg height-60 text-center" data-overlay="3">
-    <div class="background-image-holder">
-        <img alt="background" src="img/knowledge-1.jpg" />
-    </div>
+    <section class="cover height-60 text-center">
     <div class="container pos-vertical-center">
         <div class="row">
             <div class="col-md-10 col-lg-8">
@@ -62,10 +64,10 @@
                 <p class="lead">
                     The Definitive Directory for B2B Parnterships
                 </p>
-                <div class="boxed boxed--lg bg--white text-left">
+                <div class="boxed boxed--lg bg--white text-left box-shadow-wide">
                     <form class="form--horizontal row m-0">
                         <div class="col-md-8">
-                            <input type="text" name="search" placeholder="Type search keywords here" />
+                            <input type="text" name="search" placeholder="Find a Company" />
                         </div>
                         <div class="col-md-4">
                             <button type="submit" class="btn btn--primary type--uppercase">Search</button>
@@ -87,42 +89,39 @@
       </div>
     </section>
 
-    <section class=" ">
+    <section class="medium-grey">
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <div class="feature feature--featured feature-5 boxed boxed--lg boxed--border">
-              <img src="https://logo.clearbit.com/stitchdata.com">
+            <div class="feature feature--featured feature-1 boxed boxed--lg boxed--border company box-shadow-wide">
+              <a href="company-view.html"><img src="https://logo.clearbit.com/stitchdata.com"></a>
               <div class="feature__body">
-                <h5>Featured Company 1</h5>
+                <h5>Sitch Data</h5>
                 <p>
-                  Stack's visual style is simple yet distinct perfect for any project whether it be a basic marketing site, or multi-page company presence.
+                   Subtitle here
                 </p>
-                <a href="#">Learn More</a>
+                <a href="company-view.html">Learn More</a>
               </div>
             </div>
           </div>
       <div class="col-md-4">
-        <div class="feature feature--featured feature-5 boxed boxed--lg boxed--border">
-          <i class="icon icon-Fingerprint icon--lg"></i>
+        <div class="feature feature--featured feature-1 boxed boxed--lg boxed--border connection box-shadow-wide">
+          <h5>Featured Connection</h5>
           <div class="feature__body">
-            <h5>Built For Startups</h5>
-            <p>
-              Launching an attractive website quickly and affordably is important for modern startups &mdash; Stack offers massive value with modern styling.
-            </p>
-            <a href="#">Learn More</a>
+            <a href="connection-view.html"><img src="https://logo.clearbit.com/stitchdata.com"></a>
+            <a href="connection-view.html"><img class="connection-right" src="https://logo.clearbit.com/wearejolt.com"></a>
           </div>
         </div>
       </div>
       <div class="col-md-4">
-        <div class="feature feature--featured feature-5 boxed boxed--lg boxed--border">
-          <img src="https://logo.clearbit.com/wearejolt.com">
+        <div class="feature feature--featured feature-1 boxed boxed--lg boxed--border company box-shadow-wide">
+          <a href="company-view.html"><img src="https://logo.clearbit.com/wearejolt.com"></a>
           <div class="feature__body">
-            <h5>Built For Startups</h5>
+            <h5>Jolt Creative</h5>
             <p>
-              Launching an attractive website quickly and affordably is important for modern startups &mdash; Stack offers massive value with modern styling.
+              Subtitle here
             </p>
-            <a href="#">Learn More</a>
+            <a href="company-view.html">Learn More</a>
           </div>
         </div>
       </div>
@@ -132,16 +131,27 @@
   <!--end of container-->
 </section>
 
-<section class="text-center imagebg" data-gradient-bg='#4876BD,#5448BD,#8F48BD,#BD48B1'>
+<section class="">
   <div class="container">
     <div class="row">
-      <div class="col-md-8 col-lg-6">
-        <div class="cta">
-          <h2>Work with Crossbeam</h2>
-          <a class="btn btn--primary type--uppercase" href="#"><span class="btn__text">Learn More</span></a>
-          <p class="type--fine-print">or check out
-            <a href="index.html">more demos</a>
-          </p>
+      <div class="col-md-12">
+        <div class="cta cta-1 cta--horizontal boxed boxed--border text-center-xs">
+          <div class="row justify-content-center p-5">
+            <div class="col-lg-3">
+              <h4>Crossbeam</h4>
+            </div>
+            <div class="col-lg-4">
+              <p class="lead">
+                Powering data partnerships
+              </p>
+            </div>
+            <div class="col-lg-4 text-center">
+              <a class="btn btn--primary type--uppercase" href="https://getcrossbeam.com">
+                <span class="btn__text">Learn More</span>
+              </a>
+            </div>
+          </div>
+          <!--end of row-->
         </div>
       </div>
     </div>
@@ -149,6 +159,7 @@
   </div>
   <!--end of container-->
 </section>
+
 
 
   </div>
