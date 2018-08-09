@@ -20,16 +20,36 @@
   <!-- Stylesheet Links -->
   <link rel="stylesheet" href="css/style.css" />
   <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 </head>
 <body>
+  <a id="start"></a>
+        <div class="nav-container ">
+            <div class="bar bar--sm visible-xs">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-3 col-md-2">
+                            <a href="index.html" class="logo">Partnerbase</a>
+                        </div>
+                        <div class="col-9 col-md-10 text-right">
+                            <a href="#" class="hamburger-toggle" data-toggle-class="#menu1;hidden-xs">
+                              <i class="fas fa-bars stack-interface stack-menu"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </div>
+            <!--end bar-->
   <nav id="menu1" class="bar bar--sm bar-1 hidden-xs" data-scroll-class='366px:pos-fixed'>
     <div class="container">
       <div class="row">
-          <div class="bar__module">
+          <div class="bar__module hidden-xs">
             <a href="index.html" class="logo">Partnerbase</a>
           </div>
         <!--end module-->
@@ -39,7 +59,7 @@
               <li><a href="connection-view.html" class="">Partnerships</a></li>
             </ul>
             <form>
-              <div class="row justify-content-center">
+              <div class="row justify-content-center hidden-xs">
                 <input type="search" name="query" placeholder="Type search query and hit enter">
               </div>
               <!--end of row-->
@@ -54,6 +74,7 @@
             <!--end of container-->
   </nav>
             <!--end bar-->
+  </div>
 
   <div class="main-container">
     <section class="text-center">
@@ -179,5 +200,6 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
 </body>
 </html>

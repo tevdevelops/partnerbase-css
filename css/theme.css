@@ -3295,7 +3295,7 @@ form[action*='list-manage.com'] .small-meta {
     margin-bottom: 0.92857143em;
   }
   .bar__module + .bar__module {
-    margin-top: 1.85714286em;
+  padding-left: 15px;
   }
   .bar__module .btn {
     display: block;

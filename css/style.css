@@ -29,6 +29,10 @@ body p {
   display: inline-flex;
 }
 
+.nav-container {
+  background-color: #5BC0EB;
+}
+
 #menu1 {
   background-color: #5BC0EB;
 }
@@ -100,6 +104,12 @@ body p {
   padding-left: 10px;
 }
 
+@media screen and (max-width: 767px) {
+  .company-listing h5 {
+    padding-left: 25px;
+  }
+}
+
 .company-listing .company-icon img {
   margin-bottom: 0;
 }
@@ -130,4 +140,13 @@ body p {
 
 .pagination li a {
   font-size: 1.3em;
+}
+
+@media (max-width: 767px) {
+  .mobile-no-padding {
+    padding-top: 0;
+  }
+  .mobile-margin-top {
+    margin-top: 25px;
+  }
 }
